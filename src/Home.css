@@ -1,0 +1,30 @@
+.home__image{
+    width:100%;
+    z-index: -1;
+    margin-bottom: -150px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1),rgba(0,0,0,0));
+}
+
+.home__image::-webkit-scrollbar{
+    display: none;
+}
+.home__deal{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    height: 250px;
+    z-index: -1;
+}
+
+.home__deal::-webkit-scrollbar{}
+
+.deal{
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deal img{
+    margin-bottom: 10px;
+}
